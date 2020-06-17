@@ -1,4 +1,4 @@
-var player = videojs('reallyCoolVideo');
+var player = videojs('uniqueID');
 
 var MAX = 6;
 var rand = Math.floor((Math.random() * MAX) + 1);
