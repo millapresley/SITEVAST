@@ -1,6 +1,6 @@
 var player = videojs('reallyCoolVideo');
 
-var MAX = 5;
+var MAX = 4;
 var rand = Math.floor((Math.random() * MAX) + 1);
 if (rand == 1) {
   var vastPlugin = player.vastClient({
